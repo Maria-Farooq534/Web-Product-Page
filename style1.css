@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(247, 242, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    padding: 10px;
+    margin: 0 auto;
+}
+
+main{
+    margin: 15px;
+}
+
+/* Header 1 : logo and nav bar */
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.menu-bar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.menu-bar li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(34, 34, 112);
+
+}
+.product-list{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+}
+
+.product figure img{
+    max-height: 350px;
+    max-width: 300px;
+}
+
+.product-list .product figure figcaption{
+    font-weight: 600;
+    text-align: center;
+    padding: 3px;
+}
+.product-list .product .product-info{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-list .product .product-info button{
+    padding: 6px;
+    background: #000000;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    width: 100px;
+    text-align: center;
+    height: 34px;
+
+
+}
